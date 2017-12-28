@@ -1,5 +1,11 @@
+from sklearn.naive_bayes import GaussianNB
+import numpy as np
+
+
 def classify(features_train, labels_train):
-    pass
+    clf = GaussianNB()
+    clf.fit(features_train, labels_train)
+    return clf
 
 
 # import the sklearn module for GaussianNB
