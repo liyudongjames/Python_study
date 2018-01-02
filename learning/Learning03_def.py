@@ -1,4 +1,4 @@
-from learning.Leaning02 import use_me
+from learning.learning02 import use_me
 
 
 def say_hello(name, age):

@@ -39,9 +39,10 @@ print(order_null)
 order_null = OrderedDict([('a', 1), ('c', 4), ('b', 3)])
 print(order_null)
 
-c = Counter() # Counter 计数器
+c = Counter()  # Counter 计数器
 for ch in 'programing':
     c[ch] = c[ch] + 1
 
 print(c)
+
 
